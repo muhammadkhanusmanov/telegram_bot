@@ -1,7 +1,7 @@
 import requests
 s=0
 while True:
-    Token='5883620989:AAEt7JjUHu3sN3bBIAkgR1GR0IBo6CvgpiM'
+    Token='the Token of your bot'
     url=f'https://api.telegram.org/bot{Token}/getUpdates'
     response=requests.get(url=url)
     response=response.json()['result']
